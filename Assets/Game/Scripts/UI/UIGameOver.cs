@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.SceneManagement;
 using Utilities.Animation;
 
 namespace ColorBump
@@ -13,9 +12,14 @@ namespace ColorBump
             transform.AnimationPlay(enableAnimation);
         }
 
+        public void Show()
+        {
+            gameObject.SetActive(true);
+        }
+
         public void Restart()
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            LevelManager.ins.RestartLevel();
         }
     }
 }

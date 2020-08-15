@@ -8,7 +8,7 @@ namespace Utilities.Animation
         public AnimationBase anim;
         public UnityEvent onComplete;
 
-        void Start()
+        void OnEnable()
         {
             transform.AnimationPlay(anim, onComplete);
         }

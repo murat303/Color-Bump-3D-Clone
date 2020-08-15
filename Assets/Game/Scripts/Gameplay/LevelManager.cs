@@ -1,5 +1,6 @@
 ﻿using DG.Tweening;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Utilities.Animation;
 
 namespace ColorBump
@@ -26,15 +27,29 @@ namespace ColorBump
             var anim = GetLevel().cameraAnimation;
             Camera.main.transform.AnimationPlay(anim);
 
+            Messenger.Register<GameOver>(OnGameOver);
+        }
+        void OnDestroy()
+        {
             Messenger.UnRegisterAll(this);
-            Messenger.Register<PlayerDied>(OnPlayerDied);
         }
 
-        void OnPlayerDied(PlayerDied e)
+        public void RestartLevel()
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+
+        void OnGameOver(GameOver gameOver)
         {
             IsGameOver = true;
 
-            Debug.Log("Player Died!!!");
+            if (gameOver.isWin)
+            {
+                Invoke("RestartLevel", 2);
+                Debug.Log("Level Complete!");
+            }
+            else
+                Debug.Log("Player Died!!!");
         }
 
         public Level GetLevel()

@@ -15,7 +15,7 @@ namespace ColorBump
 
         Vector2 lastMousePos; //for finger xy position a frame ago
 
-        void Awake()
+        void Start()
         {
             myRigidbody = GetComponent<Rigidbody>();
             mainCamera = Camera.main;
@@ -101,7 +101,7 @@ namespace ColorBump
 
                 gameObject.SetActive(false);
 
-                Messenger.Send(new PlayerDied());
+                Messenger.Send(new GameOver(false));
             }
         }
     }

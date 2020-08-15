@@ -11866,6 +11866,7 @@ GameObject:
   - component: {fileID: 320392094}
   - component: {fileID: 320392093}
   - component: {fileID: 320392092}
+  - component: {fileID: 320392096}
   m_Layer: 5
   m_Name: UI
   m_TagString: Untagged
@@ -11929,7 +11930,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 150
   m_TargetDisplay: 0
@@ -11954,6 +11955,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &320392096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320392091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb1981f51d11e0e4d9606797f390639c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOverScreen: {fileID: 2058844255}
 --- !u!1 &321165583
 GameObject:
   m_ObjectHideFlags: 0
@@ -32063,6 +32077,8 @@ GameObject:
   - component: {fileID: 882582502}
   - component: {fileID: 882582501}
   - component: {fileID: 882582500}
+  - component: {fileID: 882582504}
+  - component: {fileID: 882582505}
   m_Layer: 0
   m_Name: FinishLine
   m_TagString: Untagged
@@ -32283,12 +32299,37 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 882582499}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6, y: -0.47, z: 75}
+  m_LocalPosition: {x: -6, y: -0.47, z: 49.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 333276611}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &882582504
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882582499}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 12, y: 2, z: 1}
+  m_Center: {x: 6, y: 1, z: 0.5}
+--- !u!114 &882582505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882582499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2355f3b758441c54683963bbf74b2092, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &882794074
 GameObject:
   m_ObjectHideFlags: 0

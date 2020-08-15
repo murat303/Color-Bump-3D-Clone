@@ -14,15 +14,22 @@ namespace ColorBump
 
         void Start()
         {
-            Messenger.Register<PlayerDied>(OnPlayerDied);
+            Messenger.Register<GameOver>(OnGameOver);
             Time.timeScale = 1;
             Time.fixedDeltaTime = 0.02f;
         }
-
-        void OnPlayerDied(PlayerDied e)
+        void OnDestroy()
         {
-            timeStamp = Time.unscaledTime;
-            isActive = true;
+            Messenger.UnRegisterAll(this);
+        }
+
+        void OnGameOver(GameOver gameOver)
+        {
+            if (!gameOver.isWin)
+            {
+                timeStamp = Time.unscaledTime;
+                isActive = true;
+            }
         }
 
         void Update()
