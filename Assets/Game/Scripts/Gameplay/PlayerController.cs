@@ -4,18 +4,14 @@ namespace ColorBump
 {
     public class PlayerController : MonoBehaviour
     {
-        [SerializeField] float speed;
-        [SerializeField] float maxSpeedAtDistance;
-        [SerializeField] float planeHeight;
-
-        Vector3 mousePosition;
-        Vector3 mouseOffset;
-        Vector3 targetPosition;
+        [SerializeField] float forcePower = 100;
 
         Camera mainCamera;
         Rigidbody myRigidbody;
         float wallDistance;
         float minCamDistance;
+
+        Vector2 lastMousePos; //for finger xy position a frame ago
 
         void Awake()
         {
@@ -26,24 +22,46 @@ namespace ColorBump
             minCamDistance = LevelManager.ins.settings.minCamDistance;
         }
 
-        void Start()
-        {
-            mousePosition = mainCamera.WorldToScreenPoint(transform.position + Vector3.forward * 0.5f);
-            mouseOffset = Vector3.zero;
-        }
-
-        void FixedUpdate()
-        {
-            var forceVector = targetPosition - myRigidbody.position;
-            myRigidbody.AddForce(forceVector.normalized * Mathf.Clamp01(forceVector.magnitude / maxSpeedAtDistance) * (speed * 100));
-        }
-
         void Update()
         {
-            CheckMousePos();
-            CheckLimits();
+            CalculateForce();
         }
 
+        void LateUpdate()
+        {
+            CheckLimits(); //First Calculate Force than Check Limits (Late Update)
+        }
+
+        /// <summary>
+        /// Calculate and Add Force to Object
+        /// </summary>
+        void CalculateForce()
+        {
+            Vector2 deltaPos = Vector2.zero; //force Direction
+
+            if (Input.GetMouseButton(0))
+            {
+                Vector2 currentMousePos = Input.mousePosition;
+
+                if (lastMousePos == Vector2.zero)
+                {
+                    lastMousePos = currentMousePos;
+                    LevelManager.ins.StartLevel();
+                }
+
+                deltaPos = currentMousePos - lastMousePos;
+                lastMousePos = currentMousePos;
+
+                var force = new Vector3(deltaPos.x, 0, deltaPos.y) * forcePower;
+                myRigidbody.AddForce(force);
+            }
+            else
+                lastMousePos = Vector2.zero;
+        }
+
+        /// <summary>
+        /// Check Move Limits
+        /// </summary>
         void CheckLimits()
         {
             var pos = transform.position;
@@ -58,28 +76,6 @@ namespace ColorBump
                 pos.z = backLimit;
 
             transform.position = pos;
-        }
-
-        void CheckMousePos()
-        {
-            Vector3 newMousePosition = Input.mousePosition;
-
-            if (Input.GetMouseButton(0))
-            {
-                mousePosition = newMousePosition;
-            }
-
-            if (Input.GetMouseButtonDown(0))
-            {
-                var ballPos = mainCamera.WorldToScreenPoint(transform.position + Vector3.forward * 0.5f);
-                mouseOffset = ballPos - Input.mousePosition;
-            }
-
-            Ray mouseRay = mainCamera.ScreenPointToRay(mousePosition + mouseOffset);
-            float planeHeight = this.planeHeight;
-            float dst = (this.planeHeight - mouseRay.origin.y) / mouseRay.direction.y;
-
-            targetPosition = mouseRay.GetPoint(dst);
         }
     }
 }
