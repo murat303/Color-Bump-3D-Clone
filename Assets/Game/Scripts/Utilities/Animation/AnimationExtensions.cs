@@ -6,7 +6,7 @@ namespace Utilities.Animation
 {
     public static class AnimationExtensions
     {
-        public static void AnimationPlay(this Transform transform, AnimationBase animation, UnityEvent onComplete = null)
+        public static Sequence AnimationPlay(this Transform transform, AnimationBase animation, UnityEvent onComplete = null)
         {
             Sequence sequence = DOTween.Sequence();
             foreach (var anim in animation.animations)
@@ -25,6 +25,11 @@ namespace Utilities.Animation
 
             sequence.OnComplete(() => { onComplete?.Invoke(); });
             sequence.Play();
+            return sequence;
+        }
+        public static void AnimationStop(Sequence sequence)
+        {
+            sequence.Kill();
         }
 
         static Tween HandleTween(Transform transform, AnimationBase.Animation animation)

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using DG.Tweening;
+using UnityEngine;
 using Utilities.Animation;
 
 namespace ColorBump
@@ -12,11 +13,15 @@ namespace ColorBump
 
         int CurrentLevel = 1;
         public bool IsGameOver { get; set; }
+        public bool IsGameStarted { get; set; }
+
+        Sequence camAnimation;
 
         public void StartLevel()
         {
+            IsGameStarted = true;
             var anim = GetLevel().cameraAnimation;
-            Camera.main.transform.AnimationPlay(anim);
+            camAnimation = Camera.main.transform.AnimationPlay(anim);
 
             Messenger.UnRegisterAll(this);
             Messenger.Register<PlayerDied>(OnPlayerDied);
@@ -25,6 +30,8 @@ namespace ColorBump
         void OnPlayerDied(PlayerDied e)
         {
             IsGameOver = true;
+            AnimationExtensions.AnimationStop(camAnimation);
+
             Debug.Log("Player Died!!!");
         }
 

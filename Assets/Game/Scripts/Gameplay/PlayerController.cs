@@ -5,6 +5,7 @@ namespace ColorBump
     public class PlayerController : MonoBehaviour
     {
         [SerializeField] float forcePower = 100;
+        [SerializeField] float constantMoveSpeed = 5;
         [SerializeField] FracturedObject fracturedPrefab;
 
         Camera mainCamera;
@@ -31,6 +32,17 @@ namespace ColorBump
         void LateUpdate()
         {
             CheckLimits(); //First Calculate Force than Check Limits (Late Update)
+        }
+
+        void FixedUpdate()
+        {
+            if (LevelManager.ins.IsGameOver) return;
+
+            if (LevelManager.ins.IsGameStarted)
+            {
+                //myRigidbody.AddForce(new Vector3(0, 0, 1000));
+                myRigidbody.MovePosition(transform.position + Vector3.forward * constantMoveSpeed * Time.deltaTime);
+            }
         }
 
         /// <summary>
