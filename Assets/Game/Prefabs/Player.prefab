@@ -124,3 +124,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   forcePower: 1000
+  fracturedPrefab: {fileID: 5516111854920328370, guid: f3990185af121d646bdc3b3f7d09582b,
+    type: 3}

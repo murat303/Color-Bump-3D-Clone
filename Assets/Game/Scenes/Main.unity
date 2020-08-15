@@ -1236,7 +1236,7 @@ GameObject:
   - component: {fileID: 30462472}
   m_Layer: 0
   m_Name: Cube (19)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1302,7 +1302,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2666,7 +2666,7 @@ GameObject:
   - component: {fileID: 74926436}
   m_Layer: 0
   m_Name: Cube (11)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2732,7 +2732,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2886,7 +2886,7 @@ GameObject:
   - component: {fileID: 75629175}
   m_Layer: 0
   m_Name: Cube (21)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2952,7 +2952,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3981,7 +3981,7 @@ GameObject:
   m_Component:
   - component: {fileID: 111631244}
   m_Layer: 0
-  m_Name: Cubes-5x5 (3)
+  m_Name: 5x5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4591,7 +4591,7 @@ GameObject:
   - component: {fileID: 130346969}
   m_Layer: 0
   m_Name: Cube (5)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4657,7 +4657,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6658,7 +6658,7 @@ GameObject:
   m_Component:
   - component: {fileID: 177576376}
   m_Layer: 0
-  m_Name: Cubes-5x5 (23)
+  m_Name: 5x5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9522,7 +9522,7 @@ GameObject:
   - component: {fileID: 247288276}
   m_Layer: 0
   m_Name: Cube (16)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9588,7 +9588,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9847,7 +9847,7 @@ GameObject:
   m_Component:
   - component: {fileID: 260780448}
   m_Layer: 0
-  m_Name: Cubes-5x5
+  m_Name: 5x5-Obstacle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9902,7 +9902,7 @@ GameObject:
   m_Component:
   - component: {fileID: 262126763}
   m_Layer: 0
-  m_Name: Cubes-5x5 (11)
+  m_Name: 5x5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10402,7 +10402,7 @@ GameObject:
   - component: {fileID: 273513660}
   m_Layer: 0
   m_Name: Cube (4)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10468,7 +10468,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14112,7 +14112,7 @@ GameObject:
   - component: {fileID: 397665079}
   m_Layer: 0
   m_Name: Cube (6)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14178,7 +14178,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -15317,7 +15317,7 @@ GameObject:
   m_Component:
   - component: {fileID: 415035321}
   m_Layer: 0
-  m_Name: Cubes-5x5 (8)
+  m_Name: 5x5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15927,7 +15927,7 @@ GameObject:
   - component: {fileID: 426717210}
   m_Layer: 0
   m_Name: Cube (18)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15993,7 +15993,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -16037,7 +16037,7 @@ GameObject:
   - component: {fileID: 427426859}
   m_Layer: 0
   m_Name: Cube (5)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16103,7 +16103,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -16587,7 +16587,7 @@ GameObject:
   - component: {fileID: 443368236}
   m_Layer: 0
   m_Name: Cube (17)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16653,7 +16653,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -18017,7 +18017,7 @@ GameObject:
   - component: {fileID: 489475713}
   m_Layer: 0
   m_Name: Cube (2)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18083,7 +18083,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -18457,7 +18457,7 @@ GameObject:
   - component: {fileID: 494103870}
   m_Layer: 0
   m_Name: Cube (3)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18523,7 +18523,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -18897,7 +18897,7 @@ GameObject:
   - component: {fileID: 503983813}
   m_Layer: 0
   m_Name: Cube (4)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18963,7 +18963,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19117,7 +19117,7 @@ GameObject:
   - component: {fileID: 506335300}
   m_Layer: 0
   m_Name: Cube (20)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19183,7 +19183,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19552,7 +19552,7 @@ GameObject:
   m_Component:
   - component: {fileID: 520274845}
   m_Layer: 0
-  m_Name: Cubes-5x5 (21)
+  m_Name: 5x5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19607,7 +19607,7 @@ GameObject:
   m_Component:
   - component: {fileID: 522893832}
   m_Layer: 0
-  m_Name: Cubes-5x5 (10)
+  m_Name: 5x5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20222,7 +20222,7 @@ GameObject:
   - component: {fileID: 537199015}
   m_Layer: 0
   m_Name: Cube (14)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20288,7 +20288,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -22422,7 +22422,7 @@ GameObject:
   - component: {fileID: 612852895}
   m_Layer: 0
   m_Name: Cube (9)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22488,7 +22488,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -23917,7 +23917,7 @@ GameObject:
   - component: {fileID: 654444851}
   m_Layer: 0
   m_Name: Cube (10)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23983,7 +23983,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -24467,7 +24467,7 @@ GameObject:
   - component: {fileID: 668034810}
   m_Layer: 0
   m_Name: Cube (18)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24533,7 +24533,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -24577,7 +24577,7 @@ GameObject:
   - component: {fileID: 674518232}
   m_Layer: 0
   m_Name: Cube (16)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24643,7 +24643,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -25127,7 +25127,7 @@ GameObject:
   - component: {fileID: 689952805}
   m_Layer: 0
   m_Name: Cube (23)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25193,7 +25193,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -26447,7 +26447,7 @@ GameObject:
   - component: {fileID: 730109320}
   m_Layer: 0
   m_Name: Cube (12)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26513,7 +26513,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -27102,7 +27102,7 @@ GameObject:
   m_Component:
   - component: {fileID: 743909619}
   m_Layer: 0
-  m_Name: Cubes-5x5 (7)
+  m_Name: 5x5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27382,7 +27382,7 @@ GameObject:
   - component: {fileID: 748901401}
   m_Layer: 0
   m_Name: Cube (14)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27448,7 +27448,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -28218,7 +28218,7 @@ GameObject:
   - component: {fileID: 778530697}
   m_Layer: 0
   m_Name: Cube (8)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28284,7 +28284,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -29318,7 +29318,7 @@ GameObject:
   - component: {fileID: 808787527}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29384,7 +29384,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -30193,7 +30193,7 @@ GameObject:
   m_Component:
   - component: {fileID: 853835812}
   m_Layer: 0
-  m_Name: Cubes-5x5 (13)
+  m_Name: 5x5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31243,7 +31243,7 @@ GameObject:
   - component: {fileID: 874886995}
   m_Layer: 0
   m_Name: Cube (15)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31309,7 +31309,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -32233,7 +32233,7 @@ GameObject:
   - component: {fileID: 896173963}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32299,7 +32299,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -32448,7 +32448,7 @@ GameObject:
   m_Component:
   - component: {fileID: 905584198}
   m_Layer: 0
-  m_Name: Cubes-5x5 (14)
+  m_Name: 5x5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34483,7 +34483,7 @@ GameObject:
   m_Component:
   - component: {fileID: 972183399}
   m_Layer: 0
-  m_Name: Cubes-5x5 (5)
+  m_Name: 5x5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34543,7 +34543,7 @@ GameObject:
   - component: {fileID: 974126812}
   m_Layer: 0
   m_Name: Cube (12)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34609,7 +34609,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -38283,7 +38283,7 @@ GameObject:
   - component: {fileID: 1077767089}
   m_Layer: 0
   m_Name: Cube (6)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38349,7 +38349,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -40588,7 +40588,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1155353873}
   m_Layer: 0
-  m_Name: Cubes-5x5 (18)
+  m_Name: 5x5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41083,7 +41083,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1191198768}
   m_Layer: 0
-  m_Name: Cubes-5x5 (1)
+  m_Name: 5x5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41248,7 +41248,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1193822370}
   m_Layer: 0
-  m_Name: Cubes-5x5 (2)
+  m_Name: 5x5-Obstacle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41858,7 +41858,7 @@ GameObject:
   - component: {fileID: 1219791119}
   m_Layer: 0
   m_Name: Cube (21)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41924,7 +41924,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -41963,7 +41963,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1221680859}
   m_Layer: 0
-  m_Name: Cubes-5x5 (16)
+  m_Name: 5x5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43343,7 +43343,7 @@ GameObject:
   - component: {fileID: 1278280940}
   m_Layer: 0
   m_Name: Cube (24)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43409,7 +43409,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -43998,7 +43998,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1297087139}
   m_Layer: 0
-  m_Name: Cubes-5x5 (4)
+  m_Name: 5x5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44893,7 +44893,7 @@ GameObject:
   - component: {fileID: 1324484919}
   m_Layer: 0
   m_Name: Cube (19)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44959,7 +44959,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -45113,7 +45113,7 @@ GameObject:
   - component: {fileID: 1327851489}
   m_Layer: 0
   m_Name: Cube (22)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45179,7 +45179,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -46380,7 +46380,7 @@ GameObject:
   - component: {fileID: 1358389452}
   m_Layer: 0
   m_Name: Cube (7)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46446,7 +46446,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -47145,7 +47145,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1386660612}
   m_Layer: 0
-  m_Name: Cubes-5x5 (20)
+  m_Name: 5x5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48085,7 +48085,7 @@ GameObject:
   - component: {fileID: 1405493063}
   m_Layer: 0
   m_Name: Cube (10)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48151,7 +48151,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -49070,7 +49070,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1449237236}
   m_Layer: 0
-  m_Name: Cubes-5x5 (12)
+  m_Name: 5x5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -50148,7 +50148,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1523977008}
   m_Layer: 0
-  m_Name: Cubes-5x5 (17)
+  m_Name: 5x5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51083,7 +51083,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1552527224}
   m_Layer: 0
-  m_Name: Cubes-5x5 (9)
+  m_Name: 5x5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52353,7 +52353,7 @@ GameObject:
   - component: {fileID: 1589091259}
   m_Layer: 0
   m_Name: Cube (15)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52419,7 +52419,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -52788,7 +52788,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1595602241}
   m_Layer: 0
-  m_Name: Cubes-5x5 (19)
+  m_Name: 5x5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -53063,7 +53063,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1598976006}
   m_Layer: 0
-  m_Name: Cubes-5x5 (22)
+  m_Name: 5x5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -53673,7 +53673,7 @@ GameObject:
   - component: {fileID: 1621815417}
   m_Layer: 0
   m_Name: Cube (11)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53739,7 +53739,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -53893,7 +53893,7 @@ GameObject:
   - component: {fileID: 1623483995}
   m_Layer: 0
   m_Name: Cube (22)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53959,7 +53959,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -54553,7 +54553,7 @@ GameObject:
   - component: {fileID: 1642549404}
   m_Layer: 0
   m_Name: Cube (8)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54619,7 +54619,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -56361,7 +56361,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1706787584}
   m_Layer: 0
-  m_Name: Cubes-5x5 (6)
+  m_Name: 5x5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57631,7 +57631,7 @@ GameObject:
   - component: {fileID: 1739846504}
   m_Layer: 0
   m_Name: Cube (24)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57697,7 +57697,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -58951,7 +58951,7 @@ GameObject:
   - component: {fileID: 1803801053}
   m_Layer: 0
   m_Name: Cube (23)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59017,7 +59017,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -59611,7 +59611,7 @@ GameObject:
   - component: {fileID: 1822273387}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59677,7 +59677,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -61715,7 +61715,7 @@ GameObject:
   - component: {fileID: 1884296230}
   m_Layer: 0
   m_Name: Cube (13)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61781,7 +61781,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -61825,7 +61825,7 @@ GameObject:
   - component: {fileID: 1886221132}
   m_Layer: 0
   m_Name: Cube (2)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61891,7 +61891,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -62330,7 +62330,7 @@ GameObject:
   - component: {fileID: 1907006251}
   m_Layer: 0
   m_Name: Cube (3)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62396,7 +62396,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -63320,7 +63320,7 @@ GameObject:
   - component: {fileID: 1942331003}
   m_Layer: 0
   m_Name: Cube (13)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63386,7 +63386,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -64420,7 +64420,7 @@ GameObject:
   - component: {fileID: 1964464549}
   m_Layer: 0
   m_Name: Cube (7)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64486,7 +64486,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -64750,7 +64750,7 @@ GameObject:
   - component: {fileID: 1972444941}
   m_Layer: 0
   m_Name: Cube (17)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64816,7 +64816,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -67060,7 +67060,7 @@ GameObject:
   - component: {fileID: 2062982271}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67126,7 +67126,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -67954,7 +67954,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2071969052}
   m_Layer: 0
-  m_Name: Cubes-5x5 (15)
+  m_Name: 5x5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -68124,7 +68124,7 @@ GameObject:
   - component: {fileID: 2078855307}
   m_Layer: 0
   m_Name: Cube (20)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68190,7 +68190,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -69554,7 +69554,7 @@ GameObject:
   - component: {fileID: 2126460747}
   m_Layer: 0
   m_Name: Cube (9)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69620,7 +69620,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50dfe57c568e95b44b06df119d99ab4b, type: 2}
+  - {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

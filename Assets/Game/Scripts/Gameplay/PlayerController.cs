@@ -5,6 +5,7 @@ namespace ColorBump
     public class PlayerController : MonoBehaviour
     {
         [SerializeField] float forcePower = 100;
+        [SerializeField] FracturedObject fracturedPrefab;
 
         Camera mainCamera;
         Rigidbody myRigidbody;
@@ -76,6 +77,22 @@ namespace ColorBump
                 pos.z = backLimit;
 
             transform.position = pos;
+        }
+
+        void OnCollisionEnter(Collision collision)
+        {
+            if (collision.collider.CompareTag("Obstacle"))
+            {
+                if(!LevelManager.ins.IsGameOver)
+                {
+                    var fracture = Instantiate(fracturedPrefab, transform.position, Quaternion.identity);
+                    fracture.Init(myRigidbody.velocity);
+
+                    gameObject.SetActive(false);
+                    LevelManager.ins.IsGameOver = true;
+                }
+                
+            }
         }
     }
 }
