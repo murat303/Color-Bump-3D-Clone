@@ -1,16 +1,19 @@
 ﻿using UnityEngine;
-using Utilities.Animation;
 
 namespace ColorBump
 {
     public class Level : MonoBehaviour
     {
-        [Header("Animation")]
-        public AnimationBase cameraAnimation;
-
         [Header("Visual")]
-        public Color ballColor;
-        public Color groundColor;
-        public Color backgroundColor;
+        public Color colorPlayer;
+        public Color colorGround;
+        public Color colorBackground;
+
+        [Header("Settings")]
+        public float camSpeed = 1.5f;
+
+        [Header("References")]
+        public Transform startLine;
+        public Transform finishLine;
     }
 }

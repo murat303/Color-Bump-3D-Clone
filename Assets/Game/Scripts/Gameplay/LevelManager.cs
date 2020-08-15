@@ -1,7 +1,5 @@
-﻿using DG.Tweening;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
-using Utilities.Animation;
 
 namespace ColorBump
 {
@@ -10,28 +8,44 @@ namespace ColorBump
         //Level parca parca yuklenebilir, arkamizda kalanlar temizlenebilir (Kameranın arkasina object disabler)
 
         public GameSettings settings;
-        Level[] levels;
 
-        int CurrentLevel = 1;
-        public bool IsGameOver { get; set; }
-        public bool IsGameStarted { get; set; }
+        public bool IsGameOver { get; private set; }
+        public bool IsGameStarted { get; private set; }
+
+        Level[] levels;
+        Level currentLevel;
+        ObjectMover cameraMover;
 
         void Awake()
         {
             levels = GetComponentsInChildren<Level>();
+            cameraMover = Camera.main.GetComponent<ObjectMover>();
+
+            GetLevel();
+            SetLevelSettings();
+
+            Messenger.UnRegisterAll(this);
+            Messenger.Register<GameOver>(OnGameOver);
+        }
+
+        void OnDestroy()
+        {
+            Messenger.UnRegisterAll(this);
+        }
+
+        void SetLevelSettings()
+        {
+            //Level Settings
+            cameraMover.speed = currentLevel.camSpeed;
+            Camera.main.backgroundColor = currentLevel.colorBackground;
+            settings.materialPlayer.color = currentLevel.colorPlayer;
+            settings.materialGround.color = currentLevel.colorGround;
         }
 
         public void StartLevel()
         {
+            cameraMover.Move(currentLevel.camSpeed);
             IsGameStarted = true;
-            var anim = GetLevel().cameraAnimation;
-            Camera.main.transform.AnimationPlay(anim);
-
-            Messenger.Register<GameOver>(OnGameOver);
-        }
-        void OnDestroy()
-        {
-            Messenger.UnRegisterAll(this);
         }
 
         public void RestartLevel()
@@ -54,7 +68,9 @@ namespace ColorBump
 
         public Level GetLevel()
         {
-            return levels[CurrentLevel - 1];
+            int level = PlayerPrefs.GetInt("CurrentLevel", 0);
+            currentLevel = levels[level];
+            return currentLevel;
         }
     }
 }

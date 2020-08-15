@@ -5,13 +5,14 @@ namespace ColorBump
     public class PlayerController : MonoBehaviour
     {
         [SerializeField] float forcePower = 100;
-        [SerializeField] float constantMoveSpeed = 5;
         [SerializeField] FracturedObject fracturedPrefab;
 
         Camera mainCamera;
         Rigidbody myRigidbody;
+
         float wallDistance;
         float minCamDistance;
+        float constantMoveSpeed;
 
         Vector2 lastMousePos; //for finger xy position a frame ago
 
@@ -22,6 +23,7 @@ namespace ColorBump
 
             wallDistance = LevelManager.ins.settings.wallDistance;
             minCamDistance = LevelManager.ins.settings.minCamDistance;
+            constantMoveSpeed = LevelManager.ins.GetLevel().camSpeed;
         }
 
         void Update()

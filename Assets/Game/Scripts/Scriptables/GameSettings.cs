@@ -8,5 +8,10 @@ namespace ColorBump
         [Header("Game")]
         public float wallDistance;
         public float minCamDistance;
+
+        [Header("Materials")]
+        public Material materialPlayer;
+        public Material materialGround;
+        public Material materialBackground;
     }
 }
