@@ -40,8 +40,7 @@ namespace ColorBump
 
             if (LevelManager.ins.IsGameStarted)
             {
-                //myRigidbody.AddForce(new Vector3(0, 0, 1000));
-                myRigidbody.MovePosition(transform.position + Vector3.forward * constantMoveSpeed * Time.deltaTime);
+                myRigidbody.MovePosition(transform.position + Vector3.forward * constantMoveSpeed * Time.fixedDeltaTime);
             }
         }
 

@@ -3,8 +3,7 @@ using Utilities.Animation;
 
 namespace ColorBump
 {
-    [CreateAssetMenu(fileName = "Level", menuName = "Scriptables/LevelSettings", order = 2)]
-    public class LevelSettings : ScriptableObject
+    public class Level : MonoBehaviour
     {
         [Header("Animation")]
         public AnimationBase cameraAnimation;

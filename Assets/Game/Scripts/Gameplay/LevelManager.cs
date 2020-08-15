@@ -9,19 +9,22 @@ namespace ColorBump
         //Level parca parca yuklenebilir, arkamizda kalanlar temizlenebilir (Kameranın arkasina object disabler)
 
         public GameSettings settings;
-        public LevelSettings[] levels;
+        Level[] levels;
 
         int CurrentLevel = 1;
         public bool IsGameOver { get; set; }
         public bool IsGameStarted { get; set; }
 
-        Sequence camAnimation;
+        void Awake()
+        {
+            levels = GetComponentsInChildren<Level>();
+        }
 
         public void StartLevel()
         {
             IsGameStarted = true;
             var anim = GetLevel().cameraAnimation;
-            camAnimation = Camera.main.transform.AnimationPlay(anim);
+            Camera.main.transform.AnimationPlay(anim);
 
             Messenger.UnRegisterAll(this);
             Messenger.Register<PlayerDied>(OnPlayerDied);
@@ -30,12 +33,11 @@ namespace ColorBump
         void OnPlayerDied(PlayerDied e)
         {
             IsGameOver = true;
-            //AnimationExtensions.AnimationStop(camAnimation);
 
             Debug.Log("Player Died!!!");
         }
 
-        public LevelSettings GetLevel()
+        public Level GetLevel()
         {
             return levels[CurrentLevel - 1];
         }

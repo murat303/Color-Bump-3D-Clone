@@ -65,7 +65,20 @@ namespace Utilities.Animation
         static Tween Fade(Transform transform, AnimationBase.Animation animation)
         {
             var renderer = transform.gameObject.GetComponent<MeshRenderer>();
-            return renderer.material.DOFade(animation.fadeTo, animation.duration);
+            if (renderer != null)
+            {
+                return renderer.material.DOFade(animation.fadeTo, animation.duration);
+            }
+            else //UI
+            {
+                if (transform.gameObject.GetComponent<CanvasGroup>() == null)
+                    transform.gameObject.AddComponent<CanvasGroup>();
+
+                if (animation.enableFrom)
+                    transform.gameObject.GetComponent<CanvasGroup>().alpha = animation.fadeFrom;
+
+                return transform.gameObject.GetComponent<CanvasGroup>().DOFade(animation.fadeTo, animation.duration);
+            }
         }
 
         static Tween Move(Transform transform, AnimationBase.Animation animation)
