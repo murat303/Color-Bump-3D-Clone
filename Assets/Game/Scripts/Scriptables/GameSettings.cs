@@ -12,6 +12,9 @@ namespace ColorBump
         [Header("Materials")]
         public Material materialPlayer;
         public Material materialGround;
-        public Material materialBackground;
+
+        [Header("Debug")]
+        public bool showLogs;
+        public bool showDistanceLog;
     }
 }

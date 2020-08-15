@@ -6777,7 +6777,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 0
-  m_FillAmount: 0.29
+  m_FillAmount: 0
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
@@ -11367,7 +11367,7 @@ GameObject:
   - component: {fileID: 306684527}
   - component: {fileID: 306684526}
   m_Layer: 0
-  m_Name: Game
+  m_Name: Managers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11428,6 +11428,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 472872376}
+  progressBar: {fileID: 178665497}
 --- !u!1 &308136019
 GameObject:
   m_ObjectHideFlags: 0
@@ -32358,7 +32359,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 12, y: 2, z: 0.5}
-  m_Center: {x: 0, y: 1, z: 0.5}
+  m_Center: {x: 0, y: 1, z: 0.75}
 --- !u!114 &882582505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42511,7 +42512,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh1277670
+  m_Name: pb_Mesh2410612
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -57341,7 +57342,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh1281470
+  m_Name: pb_Mesh2414470
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2

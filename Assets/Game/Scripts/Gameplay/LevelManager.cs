@@ -60,10 +60,10 @@ namespace ColorBump
             if (gameOver.isWin)
             {
                 Invoke("RestartLevel", 2);
-                Debug.Log("Level Complete!");
+                Logger.Log("Level Complete!");
             }
             else
-                Debug.Log("Player Died!!!");
+                Logger.Log("Game Over!");
         }
 
         public Level GetLevel()
