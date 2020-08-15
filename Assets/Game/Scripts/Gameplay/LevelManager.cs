@@ -30,7 +30,7 @@ namespace ColorBump
         void OnPlayerDied(PlayerDied e)
         {
             IsGameOver = true;
-            AnimationExtensions.AnimationStop(camAnimation);
+            //AnimationExtensions.AnimationStop(camAnimation);
 
             Debug.Log("Player Died!!!");
         }

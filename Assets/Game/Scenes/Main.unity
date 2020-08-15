@@ -11276,6 +11276,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 306684524}
+  - component: {fileID: 306684526}
   - component: {fileID: 306684525}
   m_Layer: 0
   m_Name: LevelManager
@@ -11316,6 +11317,20 @@ MonoBehaviour:
   settings: {fileID: 11400000, guid: 5724e94654ddc314cba11ef95a92dbf3, type: 2}
   levels:
   - {fileID: 11400000, guid: c3cad1b86f77a79489a71c8814ccb2f8, type: 2}
+--- !u!114 &306684526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 306684523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5daa7c3f467424baa7826625ded6af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slowMotionFactor: 0.05
+  lerpTime: 1
 --- !u!1 &308136019
 GameObject:
   m_ObjectHideFlags: 0
