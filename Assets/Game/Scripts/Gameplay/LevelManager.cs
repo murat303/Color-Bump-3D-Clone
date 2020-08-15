@@ -17,6 +17,15 @@ namespace ColorBump
         {
             var anim = GetLevel().cameraAnimation;
             Camera.main.transform.AnimationPlay(anim);
+
+            Messenger.UnRegisterAll(this);
+            Messenger.Register<PlayerDied>(OnPlayerDied);
+        }
+
+        void OnPlayerDied(PlayerDied e)
+        {
+            IsGameOver = true;
+            Debug.Log("Player Died!!!");
         }
 
         public LevelSettings GetLevel()

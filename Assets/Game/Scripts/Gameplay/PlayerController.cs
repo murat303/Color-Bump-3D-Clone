@@ -81,17 +81,16 @@ namespace ColorBump
 
         void OnCollisionEnter(Collision collision)
         {
+            if (LevelManager.ins.IsGameOver) return;
+
             if (collision.collider.CompareTag("Obstacle"))
             {
-                if(!LevelManager.ins.IsGameOver)
-                {
-                    var fracture = Instantiate(fracturedPrefab, transform.position, Quaternion.identity);
-                    fracture.Init(myRigidbody.velocity);
+                var fracture = Instantiate(fracturedPrefab, transform.position, Quaternion.identity);
+                fracture.Init(myRigidbody.velocity);
 
-                    gameObject.SetActive(false);
-                    LevelManager.ins.IsGameOver = true;
-                }
-                
+                gameObject.SetActive(false);
+
+                Messenger.Send(new PlayerDied());
             }
         }
     }
