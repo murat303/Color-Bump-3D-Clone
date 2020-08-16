@@ -16,5 +16,6 @@ MonoBehaviour:
   minCamDistance: 3
   materialPlayer: {fileID: 2100000, guid: 0513db2d38e34d54facc7adc3f517469, type: 2}
   materialGround: {fileID: 2100000, guid: 1c9c6a9b38c2dc34aab120228bca144b, type: 2}
+  materialObstacle: {fileID: 2100000, guid: 82a7e5699eb319b43a59ffd1231fa8ee, type: 2}
   showLogs: 1
   showDistanceLog: 0

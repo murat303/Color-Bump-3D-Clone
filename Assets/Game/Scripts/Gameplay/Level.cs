@@ -11,6 +11,7 @@ namespace ColorBump
         public Color colorPlayer;
         public Color colorGround;
         public Color colorBackground;
+        public Color colorObstacles;
 
         [Header("Settings")]
         public float camSpeed = 1.5f;

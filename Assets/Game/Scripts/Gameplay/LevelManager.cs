@@ -6,7 +6,6 @@ namespace ColorBump
     public class LevelManager : Singleton<LevelManager>
     {
         //Level parca parca yuklenebilir, arkamizda kalanlar temizlenebilir (Kameranın arkasina object disabler)
-
         public GameSettings settings;
 
         public bool IsGameOver { get; private set; }
@@ -40,6 +39,7 @@ namespace ColorBump
             Camera.main.backgroundColor = currentLevel.colorBackground;
             settings.materialPlayer.color = currentLevel.colorPlayer;
             settings.materialGround.color = currentLevel.colorGround;
+            settings.materialObstacle.color = currentLevel.colorObstacles;
         }
 
         public void StartLevel()
