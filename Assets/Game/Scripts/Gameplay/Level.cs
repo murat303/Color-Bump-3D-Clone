@@ -1,9 +1,12 @@
-﻿using UnityEngine;
+﻿using TMPro;
+using UnityEngine;
 
 namespace ColorBump
 {
     public class Level : MonoBehaviour
     {
+        [HideInInspector] public int level;
+
         [Header("Visual")]
         public Color colorPlayer;
         public Color colorGround;
@@ -15,5 +18,6 @@ namespace ColorBump
         [Header("References")]
         public Transform startLine;
         public Transform finishLine;
+        public TextMeshPro txtStage;
     }
 }

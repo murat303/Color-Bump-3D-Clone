@@ -70,6 +70,7 @@ namespace ColorBump
         {
             int level = PlayerPrefs.GetInt("CurrentLevel", 0);
             currentLevel = levels[level];
+            currentLevel.level = level + 1;
             return currentLevel;
         }
     }

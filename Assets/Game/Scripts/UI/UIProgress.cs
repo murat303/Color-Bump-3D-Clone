@@ -1,11 +1,14 @@
 ﻿using ColorBump;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ProgressManager : MonoBehaviour
+public class UIProgress : MonoBehaviour
 {
     [SerializeField] Transform player;
     [SerializeField] Image progressBar;
+    [SerializeField] TextMeshProUGUI txtCurrentLevel;
+    [SerializeField] TextMeshProUGUI txtNextLevel;
 
     Level currentLevel;
     float lastProgress;
@@ -17,6 +20,10 @@ public class ProgressManager : MonoBehaviour
     {
         currentLevel = LevelManager.ins.GetLevel();
         EntireDistance = currentLevel.finishLine.position.z - currentLevel.startLine.position.z;
+
+        currentLevel.txtStage.text = "STAGE " + currentLevel.level.ToString();
+        txtCurrentLevel.text = currentLevel.level.ToString();
+        txtNextLevel.text = (currentLevel.level + 1).ToString();
     }
 
     void Update()

@@ -6,7 +6,7 @@ namespace ColorBump
     public class UIManager : MonoBehaviour
     {
         public Animator animatorFlashFx;
-        public UIGameOver gameOverScreen;
+        public GameObject gameOverScreen;
         
 
         void Start()
@@ -22,12 +22,17 @@ namespace ColorBump
         {
             ShakeCamera();
             animatorFlashFx.SetTrigger("Flash");
-            if (!gameOver.isWin) gameOverScreen.Show();
+            if (!gameOver.isWin) gameOverScreen.gameObject.SetActive(true);
         }
 
         void ShakeCamera()
         {
             Camera.main.transform.DOShakePosition(0.5f, new Vector3(0.5f, 0.5f, 0));
+        }
+
+        public void Restart()
+        {
+            LevelManager.ins.RestartLevel();
         }
     }
 }
