@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
+using Utilities.Attributes;
 
 namespace ColorBump
 {
@@ -17,7 +18,7 @@ namespace ColorBump
 
         void Awake()
         {
-            levels = GetComponentsInChildren<Level>();
+            levels = GetComponentsInChildren<Level>(true);
             cameraMover = Camera.main.GetComponent<ObjectMover>();
 
             GetLevel();
@@ -59,6 +60,11 @@ namespace ColorBump
 
             if (gameOver.isWin)
             {
+                if (currentLevel.level < levels.Length)
+                    PlayerPrefs.SetInt("CurrentLevel", currentLevel.level);
+                else
+                    ResetPrefs();
+
                 Invoke("RestartLevel", 2);
                 Logger.Log("Level Complete!");
             }
@@ -69,9 +75,16 @@ namespace ColorBump
         public Level GetLevel()
         {
             int level = PlayerPrefs.GetInt("CurrentLevel", 0);
+            levels[level].gameObject.SetActive(true);
             currentLevel = levels[level];
             currentLevel.level = level + 1;
             return currentLevel;
+        }
+
+        [Button("Reset Prefs")]
+        void ResetPrefs()
+        {
+            PlayerPrefs.SetInt("CurrentLevel", 0);
         }
     }
 }

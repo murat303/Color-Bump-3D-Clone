@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using DG.Tweening;
+using UnityEngine;
 using UnityEngine.Events;
 
 namespace Utilities.Animation
@@ -7,10 +8,21 @@ namespace Utilities.Animation
     {
         public AnimationBase anim;
         public UnityEvent onComplete;
+        Sequence sequence;
 
         void OnEnable()
         {
-            transform.AnimationPlay(anim, onComplete);
+            sequence = transform.AnimationPlay(anim, onComplete);
+        }
+
+        void OnTriggerEnter(Collider other)
+        {
+            if (other.gameObject.tag == "Player")
+            {
+                sequence.Kill();
+                GetComponent<Collider>().isTrigger = false;
+                GetComponent<Rigidbody>().isKinematic = false;
+            }
         }
     }
 }
